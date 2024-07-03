@@ -1,112 +1,112 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    --primary-color: #fd0000;
-    --font-family-primary: Bai Jamjuree, sans-serif;
-    --font-family-secondary: Barlow, sans-serif;
-  }
-  
-  header {
-    min-height: 70px;
-    display: flex;
-  }
-  
-  header .mm93 {
-    display: flex;
-    align-items: center;
-  }
-  
-  header .hamb {
-    width: 161px;
-    height: auto;
-    background-color: var(--primary-color);
-    transform: skew(-21deg);
-    transform-origin: right top;
-    border-bottom-right-radius: 15px;
-  }
-  
-  header .mm93 {
-    width: 644px;
-    height: auto;
-  }
-  
-  header .mm93 img {
-    height: 50px;
-    width: 200px;
-    display: flex;
-    z-index: 2;
-  }
-  
-  header .user {
-    width: 635px;
-    height: auto;
-    transform: skew(-21deg);
-    transform-origin: left top;
-    display: flex;
-    border: 2px solid green;
-    background-color: rgb(34, 33, 33);
-  }
-  
-  nav ul {
-    list-style: none;
-    color: white;
-    width: 100%;
-    padding: 0 20px 0 0;
-    display: flex;
-    justify-content: space-evenly;
-    transform: skew(21deg);
-    margin-left: 20px;
-    border: 2px solid blue;
-  }
-  
-  nav ul li{
-      border: 2px solid red;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  ul li img{
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      filter: invert(100%);
-  }
-  
-  nav .store {
-    background-color: var(--primary-color);
-    width: 235px;
-    font-family: var(--font-family-primary);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #fd0000;
+  --font-family-primary: Bai Jamjuree, sans-serif;
+  --font-family-secondary: Barlow, sans-serif;
+}
+
+header {
+  min-height: 70px;
+  display: flex;
+}
+
+header .mm93 {
+  display: flex;
+  align-items: center;
+}
+
+header .hamb {
+  width: 161px;
+  height: auto;
+  background-color: var(--primary-color);
+  transform: skew(-21deg);
+  transform-origin: right top;
+  border-bottom-right-radius: 15px;
+}
+
+header .mm93 {
+  width: 644px;
+  height: auto;
+}
+
+header .mm93 img {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  z-index: 2;
+}
+
+header .user {
+  width: 635px;
+  height: auto;
+  transform: skew(-21deg);
+  transform-origin: left bottom;
+  display: flex;
+  border: 2px solid green;
+  background-color: rgb(34, 33, 33);
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+  width: 100%;
+  padding: 0 20px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  transform: skew(21deg);
+  margin-left: 20px;
+  border: 2px solid blue;
+}
+
+nav ul li{
+    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: skew(-21deg);
-  }
-  
-  .background {
-    margin-top: -70px;
-  }
-  
-  .background img {
-    background-position: center;
-    width: 100%;
-  }
-  
-  h1 {
-    font-family: var(--font-family-primary);
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 20px 0;
-    font-style: italic;
-  }
-  
+}
+
+ul li img{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(100%);
+}
+
+nav .store {
+  background-color: var(--primary-color);
+  width: 235px;
+  font-family: var(--font-family-primary);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: skew(-21deg);
+}
+
+.background {
+  margin-top: -70px;
+}
+
+.background img {
+  background-position: center;
+  width: 100%;
+
+}
+
+h1 {
+  font-family: var(--font-family-primary);
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
+}
