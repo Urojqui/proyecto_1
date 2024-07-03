@@ -27,6 +27,14 @@ header .hamb {
   transform: skew(-21deg);
   transform-origin: right top;
   border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamb img {
+  filter: invert(100%);
+  transform: skew(21deg);
 }
 
 header .mm93 {
@@ -44,11 +52,10 @@ header .mm93 img {
 header .user {
   width: 635px;
   height: auto;
-  transform: skew(-21deg);
-  transform-origin: left bottom;
   display: flex;
   border: 2px solid green;
-  background-color: rgb(34, 33, 33);
+  z-index: 2;
+  background-color: black;
 }
 
 nav ul {
@@ -58,24 +65,35 @@ nav ul {
   padding: 0 20px 0 0;
   display: flex;
   justify-content: space-evenly;
-  transform: skew(21deg);
   margin-left: 20px;
   border: 2px solid blue;
 }
 
-nav ul li{
-    border: 2px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav ul li {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
 }
 
-ul li img{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    filter: invert(100%);
+nav ul li:nth-child(3) {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li img {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: invert(100%);
+}
+
+li a{
+    text-decoration: none;
+    color: white;
 }
 
 nav .store {
@@ -88,17 +106,16 @@ nav .store {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: skew(-21deg);
 }
 
 .background {
   margin-top: -70px;
+  z-index: -1;
 }
 
 .background img {
   background-position: center;
   width: 100%;
-
 }
 
 h1 {
