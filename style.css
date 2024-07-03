@@ -41,9 +41,14 @@ header .hamb {
   justify-content: center;
 }
 
-.hamb img {
-  filter: invert(100%);
+.hamb i {
+  font-size: 40px;
   transform: skew(21deg);
+  color: white;
+}
+.hamb i:hover{
+    color: black;
+    transition: color 300ms;
 }
 
 header .mm93 {
@@ -103,16 +108,17 @@ nav ul li:nth-child(1) {
     transform: skew(0);  
 }
 
-li img {
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  filter: invert(100%);
+
+li .fa-solid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: 0 10px;
 }
 
-li img:hover{
-    color: var(--primary-color);
+li .fa-regular{
+    font-size: 20px;
 }
 
 li a{
@@ -120,9 +126,17 @@ li a{
     color: white;
 }
 
-li a:nth-child(1):hover{
+.hov:hover{
     color: var(--primary-color);
+    transition: color 300ms;
 }
+
+.store:hover{
+    background: #BB0600;
+    transform:skew(0);
+    transition: transform 1s;
+}
+
 
 nav .store {
   background-color: var(--primary-color);
