@@ -16,21 +16,68 @@ border: 2px solid red;
 display: flex;
 }
 
+header .mm93{
+    display: flex;
+    align-items: center;
+}
+
 header .hamb{
-    width: 160px;
+    width: 161px;
+    height: auto;
     background-color: var(--primary-color);
     transform: skew(-21deg);
     transform-origin: right top;
     border-bottom-right-radius: 15px;
-    border: 2px solid blue;
 }
 
 header .mm93{
-    width: 643px;
-    border: 2px solid green;
+    width: 644px;
+    height: auto;
+}
+
+header .mm93 img{
+    height: 50px;
+    display: flex;
 }
 
 header .user{
     width: 635px;
+    height: auto;
+    transform: skew(-21deg);
+    transform-origin: left bottom;
     border: 2px solid coral;
+    display: flex;
+}
+
+section ul{
+    list-style: none;
+    color: white;
+    width: 100%;
+    padding: 0 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    transform: skew(21deg);
+    margin-left:20px;
+}
+
+section ul li{
+    border: 2px solid blue; 
+}
+
+section ul{
+    display: flex;
+}
+
+section .store{
+    background-color: var(--primary-color);
+    width: 235px;
+    font-family: var(--font-family-header);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skew(-21deg);
 }
