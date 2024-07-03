@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color:#FD0000;
+    --font-family-header: Bai Jamjuree, sans-serif;
+    --font-family-secondary: Barlow, sans-serif;
+}
+
+header{
+min-height: 70px;
+border: 2px solid red;
+display: flex;
+}
+
+header .hamb{
+    width: 160px;
+    background-color: var(--primary-color);
+    transform: skew(-21deg);
+    transform-origin: right top;
+    border-bottom-right-radius: 15px;
+    border: 2px solid blue;
+}
+
+header .mm93{
+    width: 643px;
+    border: 2px solid green;
+}
+
+header .user{
+    width: 635px;
+    border: 2px solid coral;
+}
