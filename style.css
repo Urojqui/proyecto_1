@@ -167,7 +167,7 @@ h1 {
 }
 
 .slider{
-    height: 302px;
+    height: 304px;
     overflow: scroll;
     margin-bottom: 20px;
 }
@@ -230,7 +230,7 @@ h1 {
     display: flex;
     justify-content: right;
     align-items: center;
-    bottom:60px;
+    bottom:64px;
     opacity: 80%;
     padding-right: 5px;
     border-radius: 5px 0 0 0;
