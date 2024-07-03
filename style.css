@@ -62,7 +62,7 @@ header .user {
   width: 635px;
   height: auto;
   display: flex;
-  background-color: black;
+  background-color: rgb(19, 18, 18);
 }
 
 nav ul {
@@ -93,18 +93,14 @@ nav ul li:nth-child(5) {
 nav ul li:nth-child(3) {
   font-size: 20px;
   transform: skew(0);
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
 }
 
 nav ul li:nth-child(2) {
     transform: skew(0);
-    border-left: 2px solid gray;
 }
 
 nav ul li:nth-child(1) {
-    transform: skew(0);
-      border-left: 2px solid gray;
+    transform: skew(0);  
 }
 
 
@@ -149,4 +145,54 @@ h1 {
   font-style: italic;
 }
 
+.slider{
+    height: 302px;
+    overflow: scroll;
+}
+
+.slider ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.slidebar{
+    height: 300px;
+    width: 300px;
+    margin-right: 80px;
+}
+
+.slidebar img{
+    height: 300px;
+    width: 300px;
+    filter: invert(0);
+    border-top-right-radius: 60px;
+}
+
+.slidebar img:hover{
+    border: 2px solid var(--primary-color);
+    filter: grayscale(60%);
+}
+
+.txt{
+    font-size: 30px;
+    font-family: var(--font-family-primary);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.txt2{
+    font-size: 40px;
+    font-family: var(--font-family-primary);
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold; 
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-right: 20px;
+    gap: -80;
+}
 
