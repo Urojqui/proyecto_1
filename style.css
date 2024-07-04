@@ -262,19 +262,29 @@ h1 {
   
   display: grid;
   list-style: none;
-  height: 860px;
   padding: 20px;
   margin: 0 20px 20px 20px;
   display: grid;
-  grid-template-columns: repeat(4,300px);
-  grid-template-rows: repeat(2, 400px);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
   gap:20px;
   align-items: center;
   justify-content: center;
+  border: 2px solid red;
 }
 
 .products li{
   border: 2px solid blue;
   height: 400px;
   width: 300px;
+  background-color: #F3F3F3;
+  display: flex;
+  justify-content:center;
+  border-top-right-radius: 30px;
+}
+
+.products img{
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
 }
