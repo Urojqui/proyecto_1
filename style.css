@@ -379,23 +379,177 @@ form button:hover{
 /*MEDIA*/
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 375px) {
   .idioma{
     display: none;
   }
+
   .moneda{
     display: none;
   }
   
-  nav ul li:first-child {
-    display: none;
-  }
-
   .store{
     font-size: 12px;
     padding: 5px;
   }
+
+  .hamb .fa-solid{
+    font-size: 30px;
+  }
+
+  .hov .fa-solid{
+    font-size: 20px;
+    margin: 0 5px;
+  }
+
+  .user ul li:nth-child(4){
+    display: none;
+  }
+
+  .user ul{
+    justify-content: space-evenly;
+    margin-left: 20px;
+  }
+
+  header .mm93 img {
+    height: 50px;
+    width: 150px;
+  }
+
+  header .mm93 {
+    left: 3%;
+  }
+
+  h1{
+    font-size: 35px;
+  }
  
+  .search ul li i{
+    margin: 0 5px;
+  }
+
+  .mobile{
+    width: 100%;
+    height: auto;
+  }
+
+  .laptop{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+  .idioma{
+    display: none;
+  }
+
+  .moneda{
+    display: none;
+  }
+  
+  .store{
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .hamb .fa-solid{
+    font-size: 30px;
+  }
+
+  .hov .fa-solid{
+    font-size: 20px;
+    margin: 0 5px;
+  }
+
+  .user ul li:nth-child(4){
+    display: none;
+  }
+
+  .user ul{
+    justify-content: space-evenly;
+    margin-left: 20px;
+  }
+
+  header .mm93 img {
+    height: 50px;
+    width: 150px;
+  }
+
+  header .mm93 {
+    left: 3%;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  .search ul li i{
+    margin: 0 5px;
+  }
+
+  .mobile{
+    width: 100%;
+    height: auto;
+  }
+
+  .laptop{
+    display: none;
+  }
+
+  .products ul{
+    display: grid;
+    list-style: none;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    grid-template-columns: repeat(1 300);
+    grid-template-rows: repeat(8 400);
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .products li{
+    height: 400px;
+    width: 300px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    border-top-right-radius: 30px;
+  }
+  
+  .products img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .container-price{
+    display: flex;
+    height: 100px;
+    align-items: center;
+  } 
+  
+  .products li p{
+    text-transform:uppercase ;
+    font-weight: 600;
+  }
+  
+  .txt3{
+    font-family: var(--font-family-primary);
+    width: 200px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .txt4{
+    width: 100px;
+    font-size: 25px;
+    font-family: var(--font-family-secondary);
+    font-weight: 800;
+  }
+
 }
 
 @media screen and (min-width: 430px) and (max-width: 640px) {
@@ -424,18 +578,89 @@ form button:hover{
 
     .hov .fa-solid{
       font-size: 20px;
+      margin: 0 5px;
     }
+
+    h1{
+      font-size: 45px;
+    }
+  
+    .search ul li i{
+      margin: 0 5px;
+    }
+
+  .products ul{
+    display: grid;
+    list-style: none;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+    gap:20px;
+    align-items: center;
+    justify-content: center;
   }
   
+  .products li{
+    height: 400px;
+    width: 300px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    border-top-right-radius: 30px;
+  }
+  
+  .products img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .container-price{
+    display: flex;
+    height: 100px;
+    align-items: center;
+  } 
+  
+  .products li p{
+    text-transform:uppercase ;
+    font-weight: 600;
+  }
+  
+  .txt3{
+    font-family: var(--font-family-primary);
+    width: 200px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .txt4{
+    width: 100px;
+    font-size: 25px;
+    font-family: var(--font-family-secondary);
+    font-weight: 800;
+  }
 
-@media screen and (min-width: 430px) and (max-width: 640px) {
+  .laptop{
+    display: none;
+  }
+
+  .mobile{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1279px) {
   
   
 }
 
 @media screen and (min-width: 1280px) {
   nav ul {
-    padding: 0 20px 0 0;
     margin-left: 20px;
   }
   nav ul li {
@@ -458,7 +683,7 @@ form button:hover{
     width: 235px;
     font-size: 20px;
   }
-  .products{
+  .products ul{
     display: grid;
     list-style: none;
     padding: 20px;
