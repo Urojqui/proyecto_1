@@ -13,6 +13,8 @@
 header {
   min-height: 70px;
   display: flex;
+  width: 100%;
+  margin: 0 1px 0 1px;
 }
 
 header .mm93 {
@@ -29,7 +31,7 @@ header .mm93 {
 }
 
 header .hamb {
-  width: 161px;
+  width: 10%;
   height: auto;
   background-color: var(--primary-color);
   transform: skew(-21deg);
@@ -51,7 +53,7 @@ header .hamb {
 }
 
 header .mm93 {
-  width: 644px;
+  width: 50%;
   height: auto;
 }
 
@@ -62,7 +64,7 @@ header .mm93 img {
 }
 
 header .user {
-  width: 635px;
+  width: 40%;
   height: auto;
   display: flex;
   background-color: rgb(19, 18, 18);
@@ -165,6 +167,7 @@ h1 {
   height: 304px;
   overflow: scroll;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .slider ul {
@@ -482,4 +485,31 @@ form button:hover{
 .contact ul li:hover{
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 430px) {
+
+
+ 
+}
+
+@media screen and (min-width: 430px) and (max-width: 722px) {
+ 
+
+
+}
+
+@media screen and (min-width: 722px) and (max-width: 880px) {
+ 
+
+}
+
+@media screen and (min-width: 880px) and (max-width: 1000px) {
+  
+  
+}
+
+@media screen and (min-width: 1280px) {
+  
+
 }
