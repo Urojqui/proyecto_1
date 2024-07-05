@@ -259,6 +259,11 @@ h1 {
   height: 80px;
 }
 
+.search ul li:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .products{
   display: grid;
   list-style: none;
@@ -403,6 +408,7 @@ form .newsletter{
   border-bottom: 2px solid #979797;
   width: 100%;
   outline: 0;
+  padding-top: 15px;
 }
 
 #email{
@@ -414,6 +420,7 @@ form .newsletter{
   border-bottom: 2px solid #979797;
   width: 100%;
   outline: 0;
+  padding-top: 15px;
 }
 
 form button{
