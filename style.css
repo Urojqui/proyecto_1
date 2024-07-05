@@ -449,3 +449,37 @@ form button:hover{
   cursor: pointer;
   font-weight: 600;
 }
+
+.contact{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact ul{
+  display: flex;
+  color: white;
+  gap: 30px;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.contact ul li{
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family-secondary);
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+
+.contact img{
+  height: 30px;
+  justify-content: right;
+}
+
+.contact ul li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
