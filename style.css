@@ -425,13 +425,135 @@ form button:hover {
   }
 
   .mobile {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 
   .laptop {
     display: none;
   }
+
+  .products ul {
+    display: grid;
+    list-style: none;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    grid-template-columns: repeat(1 300);
+    grid-template-rows: repeat(8 400);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .products li {
+    height: 400px;
+    width: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top-right-radius: 30px;
+  }
+
+  .products img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .container-price {
+    display: flex;
+    height: 100px;
+    align-items: center;
+  }
+
+  .products li p {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .txt3 {
+    font-family: var(--font-family-primary);
+    width: 200px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .txt4 {
+    width: 100px;
+    font-size: 25px;
+    font-family: var(--font-family-secondary);
+    font-weight: 800;
+  }
+ 
+  form {
+    display: grid;
+    gap: 10px;
+    border-bottom: 2px solid #979797;
+    height: 280px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 50px);
+    overflow: hidden;
+    padding: 20px 0 20px 40px;
+  }
+
+  form .newsletter {
+    font-size: 16px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: justify;
+    margin-right: 40px;
+  }
+
+  #text {
+    margin-right: 40px;
+    padding-top: 15px;
+  }
+
+  #email {
+    margin-right: 40px;
+    padding-top: 15px;
+  }
+
+  form .subscription {
+    font-size: 25px;
+  }
+
+  footer button{
+    margin-top: 10px;
+    height: 50px;
+  }
+
+  footer input {
+    font-size: 16px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact ul {
+    color: white;
+    gap: 15px;
+    list-style: none;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact ul li {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .contact img {
+    height: 20px;
+    margin-top: 5px;  
+  }
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 429px) {
@@ -556,7 +678,7 @@ form button:hover {
   }
 
   form .newsletter {
-    font-size: 18px;
+    font-size: 16px;
     grid-row: 1/2;
     grid-column: 1/2;
     text-align: justify;
@@ -584,6 +706,33 @@ form button:hover {
 
   footer input {
     font-size: 16px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact ul {
+    color: white;
+    gap: 15px;
+    list-style: none;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact ul li {
+    font-weight: 400;
+    font-size: 12px
+  }
+
+  .contact img {
+    height: 20px;
+    margin-top: 5px;  
   }
 }
 
@@ -740,6 +889,32 @@ form button:hover {
   footer input {
     font-size: 16px;
   }
+  .contact {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact ul {
+    color: white;
+    gap: 20px;
+    list-style: none;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact ul li {
+    font-weight: 400;
+    font-size: 14px
+  }
+
+  .contact img {
+    height: 20px;
+    margin-top: 5px;  
+  }
 }
 
 @media screen and (min-width: 572px) and (max-width: 700px) {
@@ -891,6 +1066,33 @@ form button:hover {
 
   footer input {
     font-size: 16px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact ul {
+    color: white;
+    gap: 20px;
+    list-style: none;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact ul li {
+    font-weight: 400;
+    font-size: 14px
+  }
+
+  .contact img {
+    height: 20px;
+    margin-top: 5px;  
   }
 }
 
@@ -1052,6 +1254,31 @@ form button:hover {
   footer input {
     font-size: 16px;
   }
+  .contact {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact ul {
+    color: white;
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact ul li {
+    font-weight: 400;
+    font-size: 14px
+  }
+
+  .contact img {
+    height: 20px;
+    margin-top: 5px;  
+  }
 }
 
 @media screen and (min-width: 890px) and (max-width: 1279px) {
@@ -1196,7 +1423,7 @@ form button:hover {
 
   .contact ul li {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14px
   }
 
   .contact img {
@@ -1337,6 +1564,7 @@ form button:hover {
 
   .contact {
     height: 7vh;
+    padding-right: 10px;
   }
 
   .contact ul {
