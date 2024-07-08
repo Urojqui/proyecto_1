@@ -11,7 +11,7 @@
 }
 
 header {
-  min-height: 60px;
+  height: 6vh;
   display: flex;
   width: 100%;
 }
@@ -51,8 +51,7 @@ header .hamb {
 }
 
 header .mm93 img {
-  height: 50px;
-  width: 200px;
+  height: 35px;
   display: flex;
   transform: skew(21deg);
 }
@@ -407,10 +406,6 @@ form button:hover {
     margin-left: 20px;
   }
 
-  header .mm93 img {
-    height: 50px;
-    width: 150px;
-  }
 
   header .mm93 {
     left: 3%;
@@ -588,10 +583,6 @@ form button:hover {
     margin-left: 20px;
   }
 
-  header .mm93 img {
-    height: 50px;
-    width: 150px;
-  }
 
   header .mm93 {
     left: 3%;
@@ -775,10 +766,6 @@ form button:hover {
     margin: 0 5px;
   }
 
-  header .mm93 img {
-    height: 50px;
-    width: 150px;
-  }
 
   h1 {
     font-size: 45px;
@@ -953,11 +940,6 @@ form button:hover {
     margin: 0 5px;
   }
 
-  header .mm93 img {
-    height: 50px;
-    width: 150px;
-  }
-
   h1 {
     font-size: 45px;
   }
@@ -1129,11 +1111,6 @@ form button:hover {
   .hov .fa-solid {
     font-size: 20px;
     margin: 0 5px;
-  }
-
-  header .mm93 img {
-    height: 50px;
-    width: 150px;
   }
 
   h1 {
